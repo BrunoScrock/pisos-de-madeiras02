@@ -1,0 +1,38 @@
+# Arte Final — Pisos de Madeira
+
+Site institucional da Arte Final, empresa especializada em pisos de madeira.
+
+## Sobre a empresa
+
+- **Nome:** Arte Final — Pisos de Madeira
+- **Segmento:** Instalação, restauração, lixamento e acabamento de pisos de madeira
+- **Especialidades:** Instalação de piso de madeira, raspagem e restauração, lixamento, aplicação de acabamento, manutenção e recuperação de pisos antigos
+- **Tipos de piso:** Piso de madeira, assoalho, taco, parquet, piso maciço e piso de madeira engenheirada
+
+## Serviços
+
+- Instalação de piso de madeira
+- Raspagem e restauração
+- Lixamento
+- Aplicação de acabamento
+- Manutenção
+- Recuperação de pisos antigos
+
+## Contato
+
+- **WhatsApp:** [INSERIR WHATSAPP]
+- **Telefone:** [INSERIR TELEFONE]
+- **E-mail:** [INSERIR E-MAIL]
+- **Instagram:** [INSERIR INSTAGRAM]
+- **Facebook:** [INSERIR FACEBOOK]
+
+## Localização
+
+- **Cidade:** [INSERIR CIDADE]
+- **Endereço:** [INSERIR ENDEREÇO]
+- **Região atendida:** [INSERIR ÁREA DE ATENDIMENTO]
+- **Horário de atendimento:** [INSERIR HORÁRIO]
+
+## Tecnologia
+
+Site estático em HTML5, CSS3 e JavaScript ES6+, preparado para hospedagem em GitHub Pages, Netlify, Vercel ou Cloudflare Pages.

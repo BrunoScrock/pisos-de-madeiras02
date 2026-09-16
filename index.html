@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte Final | Pisos de Madeira</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Arte Final — Pisos de Madeira. Instalação, restauração, lixamento e acabamento de pisos de madeira com acabamento premium. Solicite seu orçamento pelo WhatsApp.">
+  <meta name="keywords" content="piso de madeira, instalação de piso, restauração de piso, lixamento de piso, acabamento de piso, parquet, taco, assoalho, piso maciço, piso engenheirado">
+  <meta name="theme-color" content="#161411">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Arte Final — Pisos de Madeira">
+  <link rel="canonical" href="https://[DOMINIO]/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo/logo-arte-final.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arte Final | Pisos de Madeira">
+  <meta property="og:description" content="Instalação, restauração, lixamento e acabamento de pisos de madeira com acabamento premium. Solicite seu orçamento pelo WhatsApp.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="Arte Final — Pisos de Madeira">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Arte Final | Pisos de Madeira">
+  <meta name="twitter:description" content="Instalação, restauração, lixamento e acabamento de pisos de madeira com acabamento premium.">
+  <meta name="twitter:image" content="">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Ícones Lucide -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org (dados estruturados — empresa local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Arte Final — Pisos de Madeira",
+    "description": "Instalação, restauração, lixamento e acabamento de pisos de madeira com acabamento premium.",
+    "url": "https://[DOMINIO]/",
+    "telephone": "[INSERIR TELEFONE]",
+    "email": "[INSERIR E-MAIL]",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[INSERIR ENDEREÇO]",
+      "addressLocality": "[INSERIR CIDADE]",
+      "addressRegion": "[INSERIR UF]",
+      "addressCountry": "BR"
+    },
+    "areaServed": "[INSERIR ÁREA DE ATENDIMENTO]",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "12:00"
+      }
+    ],
+    "priceRange": ""
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       CABEÇALHO FIXO
+  ============================================================ -->
+  <header id="topo">
+    <div class="container header-content">
+      <a href="#inicio" class="logo" aria-label="Página inicial — Arte Final, Pisos de Madeira">
+        <span class="logo-box">
+          <img src="assets/images/logo/logo-arte-final.svg" alt="Logo Arte Final" width="50" height="50">
+        </span>
+        <span class="logo-text">
+          <strong id="logo-nome">Arte Final</strong>
+          <em id="logo-sub">Pisos de Madeira</em>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Menu principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#antes-depois">Antes e Depois</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+          <li><a href="#orcamento">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="btn-header" onclick="enviarOrcamento(); return false;" aria-label="Solicitar orçamento via WhatsApp">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          <span>Orçamento</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span class="bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         1. HERO CINEMATOGRÁFICO
+    ============================================================ -->
+    <section class="hero" id="inicio">
+      <!-- Imagem de fundo — [SUBSTITUIR] foto real em assets/images/hero/ -->
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1920&q=80" alt="Ambiente sofisticado com piso de madeira" fetchpriority="high">
+      </div>
+
+      <!-- Overlay escuro + gradiente + vinheta -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Partículas / iluminação -->
+      <div class="hero-particles" aria-hidden="true"></div>
+
+      <!-- Brilhos gradiente -->
+      <div class="hero-glow glow-1" aria-hidden="true"></div>
+      <div class="hero-glow glow-2" aria-hidden="true"></div>
+
+      <!-- Conteúdo -->
+      <div class="hero-content">
+        <div class="container hero-inner">
+
+          <div class="hero-text">
+            <div class="hero-badges">
+              <span class="badge"><i data-lucide="clock" aria-hidden="true"></i> <span id="badge-horario">[INSERIR HORÁRIO]</span></span>
+              <span class="badge"><i data-lucide="award" aria-hidden="true"></i> Acabamento premium</span>
+              <span class="badge"><i data-lucide="shield-check" aria-hidden="true"></i> Trabalho especializado</span>
+            </div>
+
+            <h1 class="hero-title" aria-label="Arte Final, Pisos de Madeira">
+              <span class="line line-1"><span class="line-inner">Arte Final</span></span>
+              <span class="line line-2"><span class="line-inner">Pisos de Madeira</span></span>
+            </h1>
+
+            <p class="hero-subtitle" id="hero-subtitulo">A beleza da madeira em cada detalhe. Instalação, restauração e acabamento de pisos com precisão e elegância.</p>
+
+            <div class="hero-ctas">
+              <a href="#" class="btn-cta btn-cta-primary" onclick="enviarOrcamento(); return false;">
+                <i data-lucide="message-circle" aria-hidden="true"></i> Solicitar Orçamento
+              </a>
+              <a href="#servicos" class="btn-cta btn-cta-secondary">
+                <i data-lucide="arrow-down" aria-hidden="true"></i> Conhecer Nossos Serviços
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-scroll" aria-hidden="true">
+            <span>Role para conhecer</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         2. FRASE DE IMPACTO — TIPOGRAFIA GRANDE
+    ============================================================ -->
+    <section class="impact-quote" id="impacto">
+      <div class="container">
+        <div class="impact-quote-inner">
+          <p class="impact-quote-pre reveal">Madeira é mais que um piso.</p>
+          <h2 class="impact-quote-title reveal">
+            É <span class="impact-rotator"><span class="rotator-word">textura.</span><span class="rotator-word">conforto.</span><span class="rotator-word">personalidade.</span><span class="rotator-word">acabamento.</span></span>
+          </h2>
+          <div class="impact-quote-line" aria-hidden="true"></div>
+          <p class="impact-quote-sub reveal">Do plano ao detalhe, a madeira escrita com precisão no seu ambiente.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. SOBRE A ARTE FINAL
+    ============================================================ -->
+    <section class="about-section" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-image reveal-left">
+            <!-- [SUBSTITUIR] foto real em assets/images/sobre/ -->
+            <img src="https://images.unsplash.com/photo-1581852017102-045d7c4429a6?auto=format&fit=crop&w=900&q=80" alt="Artesão trabalhando madeira na Arte Final">
+            <div class="about-image-overlay" aria-hidden="true"></div>
+            <div class="about-frame" aria-hidden="true"></div>
+            <div class="about-tag-float">
+              <span>Arte Final</span>
+              <em>Pisos de Madeira</em>
+            </div>
+          </div>
+
+          <div class="about-content reveal-right">
+            <span class="section-eyebrow align-left">Sobre a Arte Final</span>
+            <h2>A madeira escrita <em>com precisão</em></h2>
+            <p>[INSERIR DESCRIÇÃO DA EMPRESA]</p>
+            <p>A Arte Final é dedicada à instalação, restauração e acabamento de pisos de madeira, tratando cada superfície como parte da identidade do ambiente — com técnica, cuidado e acabamento impecável.</p>
+
+            <div class="about-highlights">
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2" aria-hidden="true"></i>
+                <span>Instalação especializada</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2" aria-hidden="true"></i>
+                <span>Restauração de pisos antigos</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2" aria-hidden="true"></i>
+                <span>Acabamento refinado</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2" aria-hidden="true"></i>
+                <span>Atendimento próximo</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. DIFERENCIAIS — NÚMEROS E LINHAS
+    ============================================================ -->
+    <section class="differentials" id="diferenciais">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Diferenciais</span>
+          <h2>Por que escolher a <em>Arte Final</em>?</h2>
+          <p>Princípios que guiam cada etapa do trabalho</p>
+        </div>
+
+        <div class="diff-list">
+
+          <article class="diff-item reveal">
+            <span class="diff-number">01</span>
+            <div class="diff-body">
+              <div class="diff-icon"><i data-lucide="sparkles" aria-hidden="true"></i></div>
+              <h3>Acabamento</h3>
+              <p>Detalhamento minucioso em cada superfície, para um resultado visualmente impecável.</p>
+            </div>
+          </article>
+
+          <article class="diff-item reveal">
+            <span class="diff-number">02</span>
+            <div class="diff-body">
+              <div class="diff-icon"><i data-lucide="ruler" aria-hidden="true"></i></div>
+              <h3>Precisão</h3>
+              <p>Medidas, cortes e encaixes executados com rigor técnico em todas as etapas.</p>
+            </div>
+          </article>
+
+          <article class="diff-item reveal">
+            <span class="diff-number">03</span>
+            <div class="diff-body">
+              <div class="diff-icon"><i data-lucide="heart-handshake" aria-hidden="true"></i></div>
+              <h3>Cuidado</h3>
+              <p>Respeito ao ambiente, à madeira e à rotina de quem recebe o trabalho.</p>
+            </div>
+          </article>
+
+          <article class="diff-item reveal">
+            <span class="diff-number">04</span>
+            <div class="diff-body">
+              <div class="diff-icon"><i data-lucide="shield-check" aria-hidden="true"></i></div>
+              <h3>Qualidade</h3>
+              <p>Materiais, técnicas e acabamentos escolhidos para durar e valorizar o imóvel.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. SERVIÇOS
+    ============================================================ -->
+    <section class="services-section" id="servicos">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Serviços</span>
+          <h2>O que fazemos <em>com precisão</em></h2>
+          <p>Cuidados feitos sob medida para o seu piso de madeira</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Instalação -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1581852017102-045d7c4429a6?auto=format&fit=crop&w=800&q=70" alt="Instalação de piso de madeira" loading="lazy">
+              <div class="service-number">01</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="layers" aria-hidden="true"></i></div>
+              <h3>Instalação de Piso de Madeira</h3>
+              <p>Instalação profissional conforme o tipo de piso e o ambiente, com encaixe e nivelamento cuidadosos.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Instalação'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Raspagem e Restauração -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=70" alt="Restauração de piso de madeira" loading="lazy">
+              <div class="service-number">02</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="hammer" aria-hidden="true"></i></div>
+              <h3>Raspagem e Restauração</h3>
+              <p>Recuperação da aparência e do acabamento do piso existente, devolvendo vida à madeira.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Restauração'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Lixamento -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1452725606904-721f6408b848?auto=format&fit=crop&w=800&q=70" alt="Lixamento de madeira" loading="lazy">
+              <div class="service-number">03</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="brush" aria-hidden="true"></i></div>
+              <h3>Lixamento</h3>
+              <p>Preparação da madeira para o novo acabamento, com nivelamento e uniformidade da superfície.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Lixamento'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Aplicação de Acabamento -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=70" alt="Aplicação de acabamento em piso" loading="lazy">
+              <div class="service-number">04</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="paint-roller" aria-hidden="true"></i></div>
+              <h3>Aplicação de Acabamento</h3>
+              <p>Tratamento e proteção da superfície com acabamento que valoriza os veios e a tonalidade da madeira.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Acabamento'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Manutenção -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=70" alt="Manutenção de piso de madeira" loading="lazy">
+              <div class="service-number">05</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="refresh-cw" aria-hidden="true"></i></div>
+              <h3>Manutenção</h3>
+              <p>Cuidados e manutenção preventiva do piso para preservar o acabamento e a durabilidade.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Manutenção'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Recuperação de Pisos Antigos -->
+          <article class="service-card reveal">
+            <div class="service-visual">
+              <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=70" alt="Recuperação de piso antigo de madeira" loading="lazy">
+              <div class="service-number">06</div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-icon"><i data-lucide="history" aria-hidden="true"></i></div>
+              <h3>Recuperação de Pisos Antigos</h3>
+              <p>Restauração de pisos que precisam de recuperação, preservando a história e a beleza da madeira original.</p>
+              <a href="#" class="btn-service" onclick="enviarOrcamento('Recuperação'); return false;">
+                Solicitar orçamento <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. TIPOS DE PISO — CATÁLOGO EDITORIAL
+    ============================================================ -->
+    <section class="types-section" id="tipos-piso">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Tipos de Pisos</span>
+          <h2>Trabalhamos com <em>madeira</em></h2>
+          <p>Conheça os tipos de piso contemplados em nosso trabalho</p>
+        </div>
+
+        <div class="types-list">
+
+          <article class="type-row">
+            <div class="type-media reveal-left">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=70" alt="Piso de madeira maciço" loading="lazy">
+            </div>
+            <div class="type-content reveal-right">
+              <span class="type-index">01</span>
+              <h3>Piso de madeira / Assoalho</h3>
+              <p>O clássico assoalho de madeira, com réguas instaladas sobre o contrapiso. [CONFIRMAR TIPOS DE PISO]</p>
+            </div>
+          </article>
+
+          <article class="type-row type-row-alt">
+            <div class="type-media reveal-right">
+              <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=900&q=70" alt="Taco e parquet de madeira" loading="lazy">
+            </div>
+            <div class="type-content reveal-left">
+              <span class="type-index">02</span>
+              <h3>Taco e Parquet</h3>
+              <p>Pisos de madeira em peças menores, formando desenhos tradicionais e sofisticados. [CONFIRMAR TIPOS DE PISO]</p>
+            </div>
+          </article>
+
+          <article class="type-row">
+            <div class="type-media reveal-left">
+              <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=70" alt="Piso de madeira engenheirada" loading="lazy">
+            </div>
+            <div class="type-content reveal-right">
+              <span class="type-index">03</span>
+              <h3>Piso maciço e engenheirado</h3>
+              <p>Do piso maciço tradicional à madeira engenheirada, com estabilidade e acabamento de alto padrão. [CONFIRMAR TIPOS DE PISO]</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. PROJETOS REALIZADOS — COVERFLOW + LIGHTBOX
+    ============================================================ -->
+    <section class="portfolio-section" id="projetos">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Portfólio</span>
+          <h2>Projetos <em>Realizados</em></h2>
+          <p>Ambientes transformados pela madeira. Explore os trabalhos.</p>
+        </div>
+
+        <div class="gallery-filters" role="group" aria-label="Filtros dos projetos">
+          <button type="button" class="filter-btn active" data-galeria-filtro="Todos" aria-pressed="true">Todos</button>
+          <button type="button" class="filter-btn" data-galeria-filtro="Residencial" aria-pressed="false">Residencial</button>
+          <button type="button" class="filter-btn" data-galeria-filtro="Comercial" aria-pressed="false">Comercial</button>
+          <button type="button" class="filter-btn" data-galeria-filtro="Restauração" aria-pressed="false">Restauração</button>
+          <button type="button" class="filter-btn" data-galeria-filtro="Instalação" aria-pressed="false">Instalação</button>
+        </div>
+
+        <div class="coverflow" id="coverflow" aria-label="Galeria de projetos da Arte Final">
+          <div class="coverflow-ambience" aria-hidden="true">
+            <img id="coverflow-bg" src="" alt="">
+            <div class="coverflow-ambience-overlay"></div>
+          </div>
+
+          <div class="coverflow-stage" id="coverflow-stage"></div>
+
+          <button class="coverflow-arrow prev" id="coverflow-prev" aria-label="Projeto anterior">
+            <i data-lucide="chevron-left" aria-hidden="true"></i>
+          </button>
+          <button class="coverflow-arrow next" id="coverflow-next" aria-label="Próximo projeto">
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+
+          <div class="coverflow-dots" id="coverflow-dots" role="tablist" aria-label="Navegar entre os projetos"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. ANTES E DEPOIS — COMPARADOR
+    ============================================================ -->
+    <section class="comparison-section" id="antes-depois">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Antes e Depois</span>
+          <h2>A transformação <em>da madeira</em></h2>
+          <p>Arraste o divisor e veja a diferença do acabamento</p>
+        </div>
+
+        <div class="comparison reveal-scale" id="comparison-slider">
+          <div class="comparison-images">
+            <!-- ANTES — [SUBSTITUIR] foto em assets/images/antes-depois/antes.jpg -->
+            <img class="comparison-img comparison-after" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=75" alt="Piso de madeira após o acabamento — Depois" draggable="false">
+            <div class="comparison-before-wrap">
+              <!-- DEPOIS — [SUBSTITUIR] foto em assets/images/antes-depois/depois.jpg -->
+              <img class="comparison-img comparison-before" src="https://images.unsplash.com/photo-1452725606904-721f6408b848?auto=format&fit=crop&w=1400&q=75" alt="Piso de madeira antes da restauração — Antes" draggable="false">
+            </div>
+            <button class="comparison-handle" id="comparison-handle" aria-label="Mover divisor antes/depois" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" role="slider"></button>
+          </div>
+          <div class="comparison-labels">
+            <span class="comparison-label before">Antes</span>
+            <span class="comparison-label after">Depois</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         9. PROCESSO DE TRABALHO
+    ============================================================ -->
+    <section class="process-section" id="processo">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Como trabalhamos</span>
+          <h2>Do primeiro contato <em>à entrega</em></h2>
+          <p>Um processo organizado, transparente e cuidadoso</p>
+        </div>
+
+        <div class="process-list">
+
+          <article class="process-step reveal">
+            <span class="process-number">01</span>
+            <div class="process-icon"><i data-lucide="search" aria-hidden="true"></i></div>
+            <h3>Avaliação</h3>
+            <p>Entendimento do ambiente, do tipo de piso e da necessidade de cada projeto.</p>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="process-number">02</span>
+            <div class="process-icon"><i data-lucide="clipboard-list" aria-hidden="true"></i></div>
+            <h3>Planejamento</h3>
+            <p>Orientação sobre a melhor solução, preparo do escopo e do orçamento.</p>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="process-number">03</span>
+            <div class="process-icon"><i data-lucide="settings" aria-hidden="true"></i></div>
+            <h3>Preparação</h3>
+            <p>Organização do local e preparação da superfície para o serviço.</p>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="process-number">04</span>
+            <div class="process-icon"><i data-lucide="hammer" aria-hidden="true"></i></div>
+            <h3>Execução</h3>
+            <p>Instalação, lixamento ou restauração com técnica e atenção ao detalhe.</p>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="process-number">05</span>
+            <div class="process-icon"><i data-lucide="brush" aria-hidden="true"></i></div>
+            <h3>Acabamento</h3>
+            <p>Aplicação cuidadosa do acabamento para valorizar a madeira.</p>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="process-number">06</span>
+            <div class="process-icon"><i data-lucide="sparkles" aria-hidden="true"></i></div>
+            <h3>Entrega</h3>
+            <p>Verificação final e entrega do ambiente pronto com qualidade.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         10. EXPERIÊNCIA VISUAL — PARALLAX + DETALHES DA MADEIRA
+    ============================================================ -->
+    <section class="experience-visual" id="experiencia">
+      <div class="experience-parallax" data-speed="0.35">
+        <img src="https://images.unsplash.com/photo-1452725606904-721f6408b848?auto=format&fit=crop&w=1920&q=75" alt="Textura ampliada de madeira" loading="lazy">
+      </div>
+      <div class="experience-overlay" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="experience-copy">
+          <h2 class="word-reveal">
+            <span class="word">Textura.</span>
+            <span class="word">Detalhe.</span>
+            <span class="word">Acabamento.</span>
+          </h2>
+          <p class="reveal">A madeira tem personalidade. Cada veio, tonalidade e acabamento conta uma história.</p>
+        </div>
+
+        <div class="material-chips">
+          <button class="material-chip" data-material="VEIOS" aria-label="Saiba mais sobre vãos da madeira">
+            <i data-lucide="git-branch" aria-hidden="true"></i> VEIOS
+          </button>
+          <button class="material-chip" data-material="TEXTURA" aria-label="Saiba mais sobre a textura da madeira">
+            <i data-lucide="layers" aria-hidden="true"></i> TEXTURA
+          </button>
+          <button class="material-chip" data-material="TONALIDADE" aria-label="Saiba mais sobre a tonalidade da madeira">
+            <i data-lucide="palette" aria-hidden="true"></i> TONALIDADE
+          </button>
+          <button class="material-chip" data-material="ACABAMENTO" aria-label="Saiba mais sobre o acabamento da madeira">
+            <i data-lucide="sparkles" aria-hidden="true"></i> ACABAMENTO
+          </button>
+        </div>
+
+        <div class="material-preview" id="material-preview" aria-live="polite">
+          <span class="material-preview-label">Mais sobre</span>
+          <span class="material-preview-value">A madeira viva</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         11. ATENDIMENTO — ONDE ESTAMOS
+    ============================================================ -->
+    <section class="coverage-section" id="atendimento">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-eyebrow">Atendimento</span>
+          <h2>Onde <em>atendemos</em></h2>
+          <p id="coverage-text">[INSERIR ÁREA DE ATENDIMENTO]</p>
+        </div>
+
+        <div class="coverage-grid">
+
+          <div class="coverage-info">
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="map-pin" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>Cidade</h4>
+                <p id="coverage-cidade">[INSERIR CIDADE]</p>
+              </div>
+            </div>
+
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="map" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>Região / Área de atendimento</h4>
+                <p id="coverage-regiao">[INSERIR ÁREA DE ATENDIMENTO]</p>
+              </div>
+            </div>
+
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="navigation" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>Endereço</h4>
+                <p id="footer-endereco">[INSERIR ENDEREÇO] · [INSERIR CIDADE]</p>
+              </div>
+            </div>
+
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="phone" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>Telefone</h4>
+                <p><a href="#" class="js-phone">[INSERIR TELEFONE]</a></p>
+              </div>
+            </div>
+
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="mail" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>E-mail</h4>
+                <p><a href="mailto:[INSERIR E-MAIL]" class="js-email">[INSERIR E-MAIL]</a></p>
+              </div>
+            </div>
+
+            <div class="coverage-info-item">
+              <div class="coverage-info-icon"><i data-lucide="message-circle" aria-hidden="true"></i></div>
+              <div class="coverage-info-text">
+                <h4>WhatsApp</h4>
+                <p><a href="#" id="coverage-whatsapp" onclick="enviarOrcamento(); return false;">Solicitar orçamento pelo WhatsApp</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mapa OpenStreetMap — [INSERIR COORDENADAS DO ENDEREÇO] -->
+          <div class="coverage-map">
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-49.3332%2C-25.4162%2C-49.2932%2C-25.3842&layer=mapnik&marker=-25.4002%2C-49.3132"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa de localização da Arte Final — Pisos de Madeira"
+              allowfullscreen></iframe>
+            <a class="coverage-map-link" href="https://www.openstreetmap.org/?mlat=-25.4002&mlon=-49.3132#map=17/-25.4002/-49.3132" target="_blank" rel="noopener noreferrer">
+              Como chegar
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         12. ORÇAMENTO — FORMULÁRIO
+    ============================================================ -->
+    <section class="form-section" id="orcamento">
+      <div class="container">
+        <div class="form-grid">
+
+          <div class="form-info">
+            <span class="section-eyebrow align-left">Orçamento</span>
+            <h2>Solicite seu <em>orçamento</em></h2>
+            <p>Conte-nos sobre o seu projeto. Nossa equipe poderá avaliar a necessidade e orientar sobre o melhor serviço.</p>
+
+            <div class="form-info-features">
+              <div class="form-feature">
+                <div class="form-feature-icon"><i data-lucide="message-circle" aria-hidden="true"></i></div>
+                <span>Resposta rápida pelo WhatsApp</span>
+              </div>
+              <div class="form-feature">
+                <div class="form-feature-icon"><i data-lucide="ruler" aria-hidden="true"></i></div>
+                <span>Avaliação personalizada</span>
+              </div>
+              <div class="form-feature">
+                <div class="form-feature-icon"><i data-lucide="shield-check" aria-hidden="true"></i></div>
+                <span>Sem compromisso</span>
+              </div>
+              <div class="form-feature">
+                <div class="form-feature-icon"><i data-lucide="map-pin" aria-hidden="true"></i></div>
+                <span id="form-cidade-local">[INSERIR CIDADE]</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-card">
+            <h3>Conte sobre o seu projeto</h3>
+            <form id="formOrcamento" onsubmit="enviarFormulario(event)">
+              <div class="form-group">
+                <label for="formNome">Nome *</label>
+                <input type="text" id="formNome" name="nome" placeholder="Seu nome completo" autocomplete="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formTelefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="formTelefone" name="telefone" placeholder="(00) 00000-0000" autocomplete="tel" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail">E-mail</label>
+                <input type="email" id="formEmail" name="email" placeholder="seu@email.com" autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label for="formServico">Tipo de serviço *</label>
+                <select id="formServico" name="servico" required>
+                  <option value="" selected disabled>Selecione o serviço</option>
+                  <option value="Instalação de Piso de Madeira">Instalação de Piso de Madeira</option>
+                  <option value="Raspagem e Restauração">Raspagem e Restauração</option>
+                  <option value="Lixamento">Lixamento</option>
+                  <option value="Aplicação de Acabamento">Aplicação de Acabamento</option>
+                  <option value="Manutenção">Manutenção</option>
+                  <option value="Recuperação de Pisos Antigos">Recuperação de Pisos Antigos</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="formAmbiente">Tipo de ambiente</label>
+                <input type="text" id="formAmbiente" name="ambiente" placeholder="Ex.: sala, quarto, comércio...">
+              </div>
+
+              <div class="form-group">
+                <label for="formCidade">Cidade</label>
+                <input type="text" id="formCidade" name="cidade" placeholder="Cidade do imóvel">
+              </div>
+
+              <div class="form-group">
+                <label for="formMensagem">Mensagem</label>
+                <textarea id="formMensagem" name="mensagem" placeholder="Descreva seu projeto (medidas, estado do piso, expectativas...)" rows="4"></textarea>
+              </div>
+
+              <button type="submit" class="btn-form-submit">
+                <i data-lucide="send" aria-hidden="true"></i> Solicitar Orçamento
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         13. CTA FINAL
+    ============================================================ -->
+    <section class="final-cta">
+      <div class="final-cta-bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1920&q=70" alt="" loading="lazy">
+      </div>
+      <div class="final-cta-overlay" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="final-cta-title">Seu piso merece <em>um novo acabamento.</em></h2>
+        <p class="final-cta-wordmark">
+          <strong>Arte Final</strong>
+          <span>Pisos de Madeira</span>
+        </p>
+        <a href="#" class="btn-cta-whatsapp" onclick="enviarOrcamento(); return false;">
+          <i data-lucide="message-circle" aria-hidden="true"></i> Solicitar Orçamento
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       RODAPÉ
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="#inicio" class="footer-logo">
+          <span class="logo-box">
+            <img src="assets/images/logo/logo-arte-final.svg" alt="Logo Arte Final" width="50" height="50">
+          </span>
+          <span class="footer-logo-text">
+            <strong id="footer-nome">Arte Final</strong>
+            <em id="footer-sub">Pisos de Madeira</em>
+          </span>
+        </a>
+        <p id="slogan-footer">Instalação, restauração e acabamento de pisos de madeira com precisão e elegância.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Rodapé — Navegação">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#antes-depois">Antes e Depois</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+          <li><a href="#orcamento">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col footer-contato">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Instalação</a></li>
+          <li><a href="#servicos">Restauração</a></li>
+          <li><a href="#servicos">Acabamento</a></li>
+          <li><a href="#servicos">Manutenção</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contato">
+        <h4>Contato</h4>
+        <ul>
+          <li>
+            <i data-lucide="message-circle" aria-hidden="true"></i>
+            <a href="#" id="footer-whatsapp-link" onclick="enviarOrcamento(); return false;">Atendimento via WhatsApp</a>
+          </li>
+          <li>
+            <i data-lucide="phone" aria-hidden="true"></i>
+            <a href="#" class="js-phone">[INSERIR TELEFONE]</a>
+          </li>
+          <li>
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <a href="#" class="js-email">[INSERIR E-MAIL]</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            <span id="footer-endereco-2">[INSERIR ENDEREÇO]</span>
+          </li>
+        </ul>
+
+        <h4 class="footer-social-title">Redes Sociais</h4>
+        <div class="footer-social">
+          <a href="#" id="footer-instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Arte Final">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" id="footer-facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Arte Final">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="ano-atual">2026</span> <span id="copyright-nome">Arte Final</span> — Pisos de Madeira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BOTÃO FLUTUANTE WHATSAPP
+  ============================================================ -->
+  <a href="#" id="whatsapp-float" class="whatsapp-float" aria-label="Contato via WhatsApp — Arte Final, Pisos de Madeira" onclick="enviarOrcamento(); return false;">
+    <span class="whatsapp-float-tip">Solicitar orçamento</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
