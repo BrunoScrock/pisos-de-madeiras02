@@ -937,9 +937,39 @@ function inicializarMaterialChips() {
     "ACABAMENTO": "A proteção final que realça a beleza e prolonga a vida do piso."
   };
 
+  const imagens = {
+    "VEIOS": "assets/images/material/veios.jpg",
+    "TEXTURA": "assets/images/material/textura.jpg",
+    "TONALIDADE": "assets/images/material/tonalidade.jpg",
+    "ACABAMENTO": "assets/images/material/acabamento.jpg"
+  };
+
+  const bgImg = document.querySelector(".experience-parallax img");
+
+  if (bgImg) {
+    Object.keys(imagens).forEach(function (k) {
+      const pre = new Image();
+      pre.src = imagens[k];
+    });
+  }
+
+  function trocarImagem(material) {
+    const src = imagens[material];
+    if (!bgImg || !src || bgImg.getAttribute("src") === src) return;
+    const pre = new Image();
+    pre.onload = function () {
+      bgImg.style.opacity = "0";
+      setTimeout(function () {
+        bgImg.src = src;
+        requestAnimationFrame(function () { bgImg.style.opacity = "1"; });
+      }, 220);
+    };
+    pre.src = src;
+  }
+
   const valorEl = preview.querySelector(".material-preview-value");
 
-  function mostrar(texto, ativo) {
+  function mostrar(texto, ativo, material) {
     if (valorEl) {
       valorEl.classList.add("fade");
       setTimeout(function () {
@@ -949,14 +979,15 @@ function inicializarMaterialChips() {
     }
     chips.forEach(function (c) { c.classList.remove("active"); });
     if (ativo) ativo.classList.add("active");
+    trocarImagem(material);
   }
 
   chips.forEach(function (chip) {
     chip.addEventListener("click", function () {
-      mostrar(informacoes[chip.dataset.material] || chip.dataset.material, chip);
+      mostrar(informacoes[chip.dataset.material] || chip.dataset.material, chip, chip.dataset.material);
     });
     chip.addEventListener("mouseenter", function () {
-      mostrar(informacoes[chip.dataset.material] || chip.dataset.material, chip);
+      mostrar(informacoes[chip.dataset.material] || chip.dataset.material, chip, chip.dataset.material);
     });
   });
 }
