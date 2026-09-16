@@ -60,17 +60,16 @@ const CONFIG = {
    ========================================================================== */
 
 const PORTFOLIO = [
-  // IMAGENS DEMONSTRATIVAS (Unsplash). Substitua pelas fotos reais em:
-  // assets/images/portfolio/projeto-01/ ... projeto-04/
+  // Imagens locais geradas (assets/images/portfolio/...). Substitua pelas fotos reais.
   {
     tag: "Residencial",
     titulo: "Residência em Madeira",
     descricao: "Instalação de piso de madeira em sala integrada. [INSERIR INFORMAÇÃO]",
-    imagem: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=70",
+    imagem: "assets/images/portfolio/projeto-01/imagem-01.svg",
     imagens: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=70"
+      "assets/images/portfolio/projeto-01/imagem-01.svg",
+      "assets/images/portfolio/projeto-01/imagem-02.svg",
+      "assets/images/portfolio/projeto-01/imagem-03.svg"
     ],
     categoria: "Residencial"
   },
@@ -78,10 +77,10 @@ const PORTFOLIO = [
     tag: "Comercial",
     titulo: "Espaço Comercial",
     descricao: "Revestimento de madeira em ambiente de uso comercial. [INSERIR INFORMAÇÃO]",
-    imagem: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=70",
+    imagem: "assets/images/portfolio/projeto-02/imagem-01.svg",
     imagens: [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1000&q=70"
+      "assets/images/portfolio/projeto-02/imagem-01.svg",
+      "assets/images/portfolio/projeto-02/imagem-02.svg"
     ],
     categoria: "Comercial"
   },
@@ -89,11 +88,11 @@ const PORTFOLIO = [
     tag: "Restauração",
     titulo: "Restauração de Piso Antigo",
     descricao: "Recuperação de assoalho antigo com lixamento e novo acabamento. [INSERIR INFORMAÇÃO]",
-    imagem: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=70",
+    imagem: "assets/images/portfolio/projeto-03/imagem-01.svg",
     imagens: [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1581852017102-045d7c4429a6?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1452725606904-721f6408b848?auto=format&fit=crop&w=1000&q=70"
+      "assets/images/portfolio/projeto-03/imagem-01.svg",
+      "assets/images/portfolio/projeto-03/imagem-02.svg",
+      "assets/images/portfolio/projeto-03/imagem-03.svg"
     ],
     categoria: "Restauração"
   },
@@ -101,11 +100,11 @@ const PORTFOLIO = [
     tag: "Instalação",
     titulo: "Instalação de Assoalho",
     descricao: "Instalação de piso maciço com acabamento impecável. [INSERIR INFORMAÇÃO]",
-    imagem: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1000&q=70",
+    imagem: "assets/images/portfolio/projeto-04/imagem-01.svg",
     imagens: [
-      "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1000&q=70",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1000&q=70"
+      "assets/images/portfolio/projeto-04/imagem-01.svg",
+      "assets/images/portfolio/projeto-04/imagem-02.svg",
+      "assets/images/portfolio/projeto-04/imagem-03.svg"
     ],
     categoria: "Instalação"
   }
