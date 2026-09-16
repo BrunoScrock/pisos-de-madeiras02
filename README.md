@@ -2,7 +2,7 @@
 
 Site institucional **estático** da Arte Final, empresa especializada em **instalação, restauração e acabamento de pisos de madeira**.
 
-Design premium inspirado no universo de madeira + arquitetura + interiores, com foco em **gerar contatos e solicitações de orçamento via WhatsApp**.
+Design premium com identidade visual em **verde institucional `#1E543A`** (cor da logo), combinado com tons naturais de madeira das fotografias, com foco em **gerar contatos e solicitações de orçamento via WhatsApp**.
 
 ---
 
@@ -71,11 +71,13 @@ assets/images/
     └── projeto-04/  # Fotos do projeto 4
 ```
 
-Atualmente o site usa **imagens demonstrativas** (Unsplash) que aparecem diretamente no HTML e no `js/config.js`. Substitua pelos arquivos locais:
+O site já vem com **fotos reais demonstrativas** (arquivos `.jpg` locais, originários do Wikimedia Commons) aplicadas no `index.html` e no `js/config.js`. Elas servem de exemplo e **devem ser trocadas pelas fotos reais da empresa**. Para substituir:
 
-1. Coloque as fotos reais nos diretórios acima (prefira **WebP** otimizado, com `width`/`height` definidos).
-2. Troque os `src` das imagens no `index.html`.
+1. Coloque as fotos reais nos diretórios acima mantendo os mesmos nomes (ou prefira **WebP** otimizado, com `width`/`height` definidos).
+2. Se mudar nomes/extensões, ajuste os `src` das imagens no `index.html`.
 3. Atualize o array `PORTFOLIO` no `js/config.js`.
+
+> Observação legal: as fotos demonstrativas vêm do Wikimedia Commons e são usadas apenas como placeholder. Verifique a licença de cada arquivo antes de manter em produção e prefira substituí-las por fotos próprias.
 
 ## Portfólio (galeria dinâmica)
 

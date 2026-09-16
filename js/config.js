@@ -65,11 +65,11 @@ const PORTFOLIO = [
     tag: "Residencial",
     titulo: "Residência em Madeira",
     descricao: "Instalação de piso de madeira em sala integrada. [INSERIR INFORMAÇÃO]",
-    imagem: "assets/images/portfolio/projeto-01/imagem-01.svg",
+    imagem: "assets/images/portfolio/projeto-01/imagem-01.jpg",
     imagens: [
-      "assets/images/portfolio/projeto-01/imagem-01.svg",
-      "assets/images/portfolio/projeto-01/imagem-02.svg",
-      "assets/images/portfolio/projeto-01/imagem-03.svg"
+      "assets/images/portfolio/projeto-01/imagem-01.jpg",
+      "assets/images/portfolio/projeto-01/imagem-02.jpg",
+      "assets/images/portfolio/projeto-01/imagem-03.jpg"
     ],
     categoria: "Residencial"
   },
@@ -77,10 +77,10 @@ const PORTFOLIO = [
     tag: "Comercial",
     titulo: "Espaço Comercial",
     descricao: "Revestimento de madeira em ambiente de uso comercial. [INSERIR INFORMAÇÃO]",
-    imagem: "assets/images/portfolio/projeto-02/imagem-01.svg",
+    imagem: "assets/images/portfolio/projeto-02/imagem-01.jpg",
     imagens: [
-      "assets/images/portfolio/projeto-02/imagem-01.svg",
-      "assets/images/portfolio/projeto-02/imagem-02.svg"
+      "assets/images/portfolio/projeto-02/imagem-01.jpg",
+      "assets/images/portfolio/projeto-02/imagem-02.jpg"
     ],
     categoria: "Comercial"
   },
@@ -88,11 +88,11 @@ const PORTFOLIO = [
     tag: "Restauração",
     titulo: "Restauração de Piso Antigo",
     descricao: "Recuperação de assoalho antigo com lixamento e novo acabamento. [INSERIR INFORMAÇÃO]",
-    imagem: "assets/images/portfolio/projeto-03/imagem-01.svg",
+    imagem: "assets/images/portfolio/projeto-03/imagem-01.jpg",
     imagens: [
-      "assets/images/portfolio/projeto-03/imagem-01.svg",
-      "assets/images/portfolio/projeto-03/imagem-02.svg",
-      "assets/images/portfolio/projeto-03/imagem-03.svg"
+      "assets/images/portfolio/projeto-03/imagem-01.jpg",
+      "assets/images/portfolio/projeto-03/imagem-02.jpg",
+      "assets/images/portfolio/projeto-03/imagem-03.jpg"
     ],
     categoria: "Restauração"
   },
@@ -100,11 +100,11 @@ const PORTFOLIO = [
     tag: "Instalação",
     titulo: "Instalação de Assoalho",
     descricao: "Instalação de piso maciço com acabamento impecável. [INSERIR INFORMAÇÃO]",
-    imagem: "assets/images/portfolio/projeto-04/imagem-01.svg",
+    imagem: "assets/images/portfolio/projeto-04/imagem-01.jpg",
     imagens: [
-      "assets/images/portfolio/projeto-04/imagem-01.svg",
-      "assets/images/portfolio/projeto-04/imagem-02.svg",
-      "assets/images/portfolio/projeto-04/imagem-03.svg"
+      "assets/images/portfolio/projeto-04/imagem-01.jpg",
+      "assets/images/portfolio/projeto-04/imagem-02.jpg",
+      "assets/images/portfolio/projeto-04/imagem-03.jpg"
     ],
     categoria: "Instalação"
   }
