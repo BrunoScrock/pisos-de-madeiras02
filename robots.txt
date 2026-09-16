@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://[DOMINIO]/sitemap.xml
+Sitemap: https://brunoscrock.github.io/pisos-de-madeiras02/sitemap.xml
