@@ -2097,11 +2097,14 @@ body.no-scroll {
   padding: 140px 0 90px;
   overflow: hidden;
   color: var(--white);
+  background: var(--carbon);
+  margin-top: -1px;
+  isolation: isolate;
 }
 
 .experience-parallax {
   position: absolute;
-  inset: -12% 0;
+  inset: -160px 0;
   z-index: 0;
   will-change: transform;
 }
@@ -2119,7 +2122,7 @@ body.no-scroll {
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(13, 26, 19, 0.88) 0%, rgba(13, 26, 19, 0.62) 40%, rgba(13, 26, 19, 0.78) 100%),
+    linear-gradient(180deg, var(--carbon) 0%, rgba(13, 26, 19, 0.88) 3%, rgba(13, 26, 19, 0.62) 40%, rgba(13, 26, 19, 0.78) 100%),
     linear-gradient(115deg, rgba(30, 84, 58, 0.5), transparent 60%);
 }
 
@@ -2559,6 +2562,9 @@ body.no-scroll {
   padding: 130px 0;
   overflow: hidden;
   color: var(--white);
+  background: var(--carbon);
+  margin-top: -1px;
+  isolation: isolate;
 }
 
 .final-cta-bg {
@@ -2579,7 +2585,7 @@ body.no-scroll {
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(13, 26, 19, 0.92) 0%, rgba(13, 26, 19, 0.7) 50%, rgba(13, 26, 19, 0.95) 100%),
+    linear-gradient(180deg, var(--carbon) 0%, rgba(13, 26, 19, 0.92) 3%, rgba(13, 26, 19, 0.7) 50%, rgba(13, 26, 19, 0.95) 100%),
     radial-gradient(ellipse at 50% 100%, rgba(79, 165, 122, 0.22), transparent 55%);
 }
 
