@@ -63,6 +63,7 @@ assets/images/
 ├── hero/            # Foto de fundo do topo
 ├── sobre/           # Fotos da seção "Sobre"
 ├── servicos/        # Fotos dos cards de serviço
+├── material/        # Fotos dos chips (veios/textura/tonalidade/acabamento)
 ├── antes-depois/    # Fotos do comparador (antes.jpg / depois.jpg)
 └── portfolio/
     ├── projeto-01/  # Fotos do projeto 1
@@ -78,6 +79,12 @@ O site já vem com **fotos reais demonstrativas** (arquivos `.jpg` locais, origi
 3. Atualize o array `PORTFOLIO` no `js/config.js`.
 
 > Observação legal: as fotos demonstrativas vêm do Wikimedia Commons e são usadas apenas como placeholder. Verifique a licença de cada arquivo antes de manter em produção e prefira substituí-las por fotos próprias.
+
+Créditos das principais fotos demonstrativas (Wikimedia Commons):
+
+- `hero/hero.jpg` — *Kleiner Sitzungssaal des Rathauses Hof* — PantheraLeo1359531 — CC BY 4.0.
+- `material/tonalidade.jpg` — *16 wood samples* — CC BY-SA.
+- Demais fotos — verifique a página de origem de cada arquivo no Commons.
 
 ## Portfólio (galeria dinâmica)
 
