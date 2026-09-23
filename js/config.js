@@ -16,22 +16,22 @@ const CONFIG = {
   slogan: "A beleza da madeira em cada detalhe. Instalação, restauração e acabamento de pisos com precisão e elegância.",
 
   /* Contato -------------------------------------------------------------- */
-  whatsapp: "",                // Formato: 55 + DDD + número (somente dígitos). Ex.: 5541999999999
-  telefone: "[INSERIR TELEFONE]",       // Ex.: (41) 99999-9999
-  email: "[INSERIR E-MAIL]",           // Ex.: contato@artefinalpisos.com.br
+  whatsapp: "5541997305973",            // Formato: 55 + DDD + número (somente dígitos). Ex.: 5541999999999
+  telefone: "(41) 99730-5973",       // Ex.: (41) 99999-9999
+  email: "artefinalpisos@gmail.com",           // Ex.: contato@artefinalpisos.com.br
 
   /* Localização ---------------------------------------------------------- */
-  cidade: "[INSERIR CIDADE]",                 // Ex.: Curitiba
-  endereco: "[INSERIR ENDEREÇO]",            // Ex.: Rua Exemplo, 123 - Bairro
-  atendimento: "[INSERIR ÁREA DE ATENDIMENTO]", // Ex.: Curitiba e região
+  cidade: "Curitiba",                 // Ex.: Curitiba
+  endereco: "",            // Ex.: Rua Exemplo, 123 - Bairro
+  atendimento: "Curitiba", // Ex.: Curitiba e região
 
   /* Funcionamento -------------------------------------------------------- */
   horario: "[INSERIR HORÁRIO]", // horário completo (seção Onde atendemos)
   horarioResumo: "[INSERIR HORÁRIO]", // horário resumido (badge do Hero)
 
   /* Redes Sociais -------------------------------------------------------- */
-  instagram: "",
-  facebook: "",
+  instagram: "https://www.instagram.com/artefinal.pisos/",
+  facebook: "https://www.facebook.com/artefinalpisos/",
 
   /* Mensagens do WhatsApp ------------------------------------------------ */
   mensagemPadrao:

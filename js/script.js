@@ -140,7 +140,11 @@ function aplicarConfiguracao() {
   if (coverageCidade) coverageCidade.textContent = CONFIG.cidade;
 
   const coverageRegiao = document.getElementById("coverage-regiao");
-  if (coverageRegiao) coverageRegiao.textContent = CONFIG.atendimento;
+  if (coverageRegiao) {
+    coverageRegiao.textContent = CONFIG.atendimento
+      ? "Toda a cidade de " + CONFIG.atendimento
+      : "Toda a cidade de Curitiba";
+  }
 
   // Cidade no formulário
   const formCidadeLocal = document.getElementById("form-cidade-local");
