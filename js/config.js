@@ -67,7 +67,7 @@ const PORTFOLIO = [
   {
     tag: "Residencial",
     titulo: "Residência em Madeira",
-    descricao: "Instalação de piso de madeira em sala integrada. [INSERIR INFORMAÇÃO]",
+    descricao: "Instalação de piso de madeira em sala integrada.",
     imagem: "assets/images/portfolio/projeto-01-residencial/re1.png",
     imagens: [
       "assets/images/portfolio/projeto-01-residencial/re1.png",
@@ -107,7 +107,7 @@ const PORTFOLIO = [
   {
     tag: "Comercial",
     titulo: "Espaço Comercial",
-    descricao: "Revestimento de madeira em ambiente de uso comercial. [INSERIR INFORMAÇÃO]",
+    descricao: "Revestimento de madeira em ambiente de uso comercial.",
     imagem: "assets/images/portfolio/projeto-02-comercial/com-01.png",
     imagens: [
       "assets/images/portfolio/projeto-02-comercial/com-01.png",
@@ -134,7 +134,7 @@ const PORTFOLIO = [
   {
     tag: "Restauração",
     titulo: "Restauração de Piso Antigo",
-    descricao: "Recuperação de assoalho antigo com lixamento e novo acabamento. [INSERIR INFORMAÇÃO]",
+    descricao: "Recuperação de assoalho antigo com lixamento e novo acabamento.",
     imagem: "assets/images/portfolio/projeto-03-restauração/rest-01.png",
     imagens: [
       "assets/images/portfolio/projeto-03-restauração/rest-01.png",
@@ -160,7 +160,7 @@ const PORTFOLIO = [
   {
     tag: "Instalação",
     titulo: "Instalação de Assoalho",
-    descricao: "Instalação de piso maciço com acabamento impecável. [INSERIR INFORMAÇÃO]",
+    descricao: "Instalação de piso maciço com acabamento impecável.",
     imagem: "assets/images/portfolio/projeto-04-instalação/ins-01.png",
     imagens: [
       "assets/images/portfolio/projeto-04-instalação/ins-01.png",
