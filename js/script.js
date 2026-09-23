@@ -46,6 +46,7 @@ function enviarOrcamento(tipo) {
     "Restauração": "mensagemRestauracao",
     "Restauracao": "mensagemRestauracao",
     "Acabamento": "mensagemAcabamento",
+    "Deck": "mensagemDeck",
     "Lixamento": "mensagemPadrao",
     "Manutenção": "mensagemPadrao",
     "Recuperação": "mensagemPadrao"

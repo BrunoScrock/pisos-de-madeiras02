@@ -44,7 +44,10 @@ const CONFIG = {
     "Olá! Gostaria de solicitar um orçamento para restauração de piso de madeira.",
 
   mensagemAcabamento:
-    "Olá! Gostaria de solicitar um orçamento para acabamento de piso de madeira."
+    "Olá! Gostaria de solicitar um orçamento para acabamento de piso de madeira.",
+
+  mensagemDeck:
+    "Olá! Gostaria de solicitar um orçamento para instalação de deck de madeira."
 };
 
 /* ==========================================================================
