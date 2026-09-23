@@ -1933,7 +1933,6 @@ body.no-scroll {
   max-width: none;
   object-fit: cover;
   z-index: 2;
-  filter: grayscale(0.5) brightness(0.7) contrast(0.9) sepia(0.3) saturate(0.85);
 }
 
 .comparison-handle {
