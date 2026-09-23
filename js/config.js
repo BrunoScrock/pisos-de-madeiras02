@@ -32,6 +32,7 @@ const CONFIG = {
   /* Redes Sociais -------------------------------------------------------- */
   instagram: "https://www.instagram.com/artefinal.pisos/",
   facebook: "https://www.facebook.com/artefinalpisos/",
+  avaliacaoGoogle: "",   // Link do perfil de avaliações no Google. Ex.: https://g.page/r/xxxx/review
 
   /* Mensagens do WhatsApp ------------------------------------------------ */
   mensagemPadrao:

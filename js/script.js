@@ -197,6 +197,14 @@ function aplicarConfiguracao() {
   const facebook = document.getElementById("footer-facebook");
   if (facebook && CONFIG.facebook) facebook.setAttribute("href", CONFIG.facebook);
 
+  // Avaliação no Google (botão flutuante)
+  const avaliacao = document.getElementById("avaliacao-float");
+  if (avaliacao && CONFIG.avaliacaoGoogle) {
+    avaliacao.setAttribute("href", CONFIG.avaliacaoGoogle);
+    avaliacao.setAttribute("target", "_blank");
+    avaliacao.setAttribute("rel", "noopener noreferrer");
+  }
+
   // Ano atual
   const anoAtual = document.getElementById("ano-atual");
   if (anoAtual) anoAtual.textContent = new Date().getFullYear();
