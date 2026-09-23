@@ -941,7 +941,7 @@ function inicializarMaterialChips() {
     "VEIOS": "assets/images/material/veios.jpg",
     "TEXTURA": "assets/images/material/textura.jpg",
     "TONALIDADE": "assets/images/material/tonalidade.jpg",
-    "ACABAMENTO": "assets/images/material/acabamento.jpg"
+    "ACABAMENTO": "assets/images/material/acabamento.png"
   };
 
   const bgImg = document.querySelector(".experience-parallax img");
