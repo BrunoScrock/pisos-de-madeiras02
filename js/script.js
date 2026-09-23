@@ -805,16 +805,15 @@ function inicializarAntesDepois() {
   if (!slider) return;
 
   const handle = document.getElementById("comparison-handle");
-  const beforeWrap = slider.querySelector(".comparison-before-wrap");
+  const beforeImg = slider.querySelector(".comparison-before");
   const reduzirMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let arrastando = false;
 
   function setPosicao(pos) {
     pos = Math.max(0, Math.min(100, pos));
-    if (beforeWrap) {
-      beforeWrap.style.width = pos + "%";
-      beforeWrap.style.clipPath = "inset(0 calc(100% - " + pos + "%) 0 0)";
-      beforeWrap.style.webkitClipPath = "inset(0 calc(100% - " + pos + "%) 0 0)";
+    if (beforeImg) {
+      beforeImg.style.clipPath = "inset(0 calc(100% - " + pos + "%) 0 0)";
+      beforeImg.style.webkitClipPath = "inset(0 calc(100% - " + pos + "%) 0 0)";
     }
     if (handle) handle.style.left = pos + "%";
     handle.setAttribute("aria-valuenow", Math.round(pos));
