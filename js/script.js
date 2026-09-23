@@ -360,6 +360,11 @@ function montarCoverflow() {
         });
         thumbs.appendChild(t);
       });
+
+      const ativo = thumbs.querySelector(".lightbox-thumb.active");
+      if (ativo && window.matchMedia("(max-width: 900px)").matches) {
+        ativo.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      }
     }
 
     if (window.lucide) window.lucide.createIcons();
