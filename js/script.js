@@ -1010,10 +1010,37 @@ function inicializarMaterialChips() {
 }
 
 /* ==========================================================================
+   TELA DE CARREGAMENTO (PRELOADER)
+   ========================================================================== */
+
+function iniciarLoader() {
+  const loader = document.getElementById("loader");
+  if (!loader) return;
+
+  function esconder() {
+    loader.classList.add("is-oculto");
+    window.setTimeout(function () {
+      if (loader.parentNode) loader.parentNode.removeChild(loader);
+    }, 700);
+  }
+
+  if (document.readyState === "complete") {
+    window.setTimeout(esconder, 320);
+  } else {
+    window.addEventListener("load", function () {
+      window.setTimeout(esconder, 320);
+    });
+  }
+
+  window.setTimeout(esconder, 3500);
+}
+
+/* ==========================================================================
    INICIALIZAÇÃO
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
+  iniciarLoader();
   aplicarConfiguracao();
   animarTituloHero();
 

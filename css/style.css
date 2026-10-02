@@ -107,6 +107,74 @@ textarea:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
+   1.5 TELA DE CARREGAMENTO (PRELOADER)
+   -------------------------------------------------------------------------- */
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 1900;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 22px;
+  background: linear-gradient(180deg, var(--carbon-2), var(--carbon));
+  transition: opacity 520ms ease, visibility 520ms;
+}
+
+.loader.is-oculto {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader__caixa { display: flex; gap: 7px; }
+
+.loader__barra {
+  width: 9px;
+  height: 34px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, var(--wood-light), var(--wood-car) 60%, var(--wood));
+  animation: loader-barra 1.05s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.loader__barra:nth-child(2) { animation-delay: 0.13s; }
+.loader__barra:nth-child(3) { animation-delay: 0.26s; }
+
+.loader__texto {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.loader__pontos::after {
+  content: "...";
+  display: inline-block;
+  width: 1.4em;
+  text-align: left;
+  overflow: hidden;
+  vertical-align: bottom;
+  animation: loader-pontos 1.4s steps(4, end) infinite;
+}
+
+@keyframes loader-pontos {
+  0% { width: 0; }
+  100% { width: 1.4em; }
+}
+
+@keyframes loader-barra {
+  0%, 100% { transform: scaleY(0.42); opacity: 0.5; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader__barra,
+  .loader__pontos::after { animation: none; }
+  .loader__barra { opacity: 0.6; }
+}
+
+/* --------------------------------------------------------------------------
    2. UTILITÁRIOS
    -------------------------------------------------------------------------- */
 .sr-only {
